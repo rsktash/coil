@@ -44,7 +44,6 @@ import coil3.memory.MemoryCache
 import coil3.request.ImageRequest
 import coil3.util.component1
 import coil3.util.component2
-import uz.rsteam.coil3.compose.generated.resources.Res
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.MissingResourceException
 import sample.common.AssetType
@@ -57,6 +56,7 @@ import sample.common.calculateScaledSize
 import sample.common.extras
 import sample.common.newImageLoader
 import sample.common.next
+import uz.rsteam.coil3.compose.generated.resources.Res
 
 @Composable
 fun App() {
