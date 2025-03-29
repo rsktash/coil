@@ -44,7 +44,7 @@ import coil3.memory.MemoryCache
 import coil3.request.ImageRequest
 import coil3.util.component1
 import coil3.util.component2
-import io.coil_kt.coil3.compose.generated.resources.Res
+import uz.rsteam.coil3.compose.generated.resources.Res
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.MissingResourceException
 import sample.common.AssetType

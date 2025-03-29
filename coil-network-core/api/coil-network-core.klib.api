@@ -5,7 +5,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <io.coil-kt.coil3:coil-network-core>
+// Library unique name: <uz.rsteam.coil3:coil-network-core>
 abstract fun interface coil3.network/ConnectivityChecker { // coil3.network/ConnectivityChecker|null[0]
     abstract fun isOnline(): kotlin/Boolean // coil3.network/ConnectivityChecker.isOnline|isOnline(){}[0]
 

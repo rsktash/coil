@@ -5,7 +5,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <io.coil-kt.coil3:coil-svg>
+// Library unique name: <uz.rsteam.coil3:coil-svg>
 final class coil3.svg/SvgDecoder : coil3.decode/Decoder { // coil3.svg/SvgDecoder|null[0]
     constructor <init>(coil3.decode/ImageSource, coil3.request/Options, kotlin/Boolean = ..., kotlin/Boolean = ..., kotlin/Boolean = ...) // coil3.svg/SvgDecoder.<init>|<init>(coil3.decode.ImageSource;coil3.request.Options;kotlin.Boolean;kotlin.Boolean;kotlin.Boolean){}[0]
 

@@ -5,7 +5,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <io.coil-kt.coil3:coil-network-ktor2>
+// Library unique name: <uz.rsteam.coil3:coil-network-ktor2>
 final val coil3.network.ktor2.internal/initHook // coil3.network.ktor2.internal/initHook|{}initHook[0]
     final fun <get-initHook>(): kotlin/Any // coil3.network.ktor2.internal/initHook.<get-initHook>|<get-initHook>(){}[0]
 

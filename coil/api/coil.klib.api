@@ -5,7 +5,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <io.coil-kt.coil3:coil>
+// Library unique name: <uz.rsteam.coil3:coil>
 final object coil3/SingletonImageLoader { // coil3/SingletonImageLoader|null[0]
     final fun get(coil3/PlatformContext): coil3/ImageLoader // coil3/SingletonImageLoader.get|get(coil3.PlatformContext){}[0]
     final fun reset() // coil3/SingletonImageLoader.reset|reset(){}[0]

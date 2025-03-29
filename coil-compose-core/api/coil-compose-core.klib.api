@@ -5,7 +5,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <io.coil-kt.coil3:coil-compose-core>
+// Library unique name: <uz.rsteam.coil3:coil-compose-core>
 abstract fun interface coil3.compose/AsyncImagePreviewHandler { // coil3.compose/AsyncImagePreviewHandler|null[0]
     abstract suspend fun handle(coil3/ImageLoader, coil3.request/ImageRequest): coil3.compose/AsyncImagePainter.State // coil3.compose/AsyncImagePreviewHandler.handle|handle(coil3.ImageLoader;coil3.request.ImageRequest){}[0]
 

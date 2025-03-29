@@ -5,7 +5,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <io.coil-kt.coil3:coil-network-cache-control>
+// Library unique name: <uz.rsteam.coil3:coil-network-cache-control>
 final class coil3.network.cachecontrol/CacheControlCacheStrategy : coil3.network/CacheStrategy { // coil3.network.cachecontrol/CacheControlCacheStrategy|null[0]
     constructor <init>(kotlin/Function0<kotlinx.datetime/Instant> = ...) // coil3.network.cachecontrol/CacheControlCacheStrategy.<init>|<init>(kotlin.Function0<kotlinx.datetime.Instant>){}[0]
 

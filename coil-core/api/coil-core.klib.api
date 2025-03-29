@@ -6,7 +6,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <io.coil-kt.coil3:coil-core>
+// Library unique name: <uz.rsteam.coil3:coil-core>
 open annotation class coil3.annotation/DelicateCoilApi : kotlin/Annotation { // coil3.annotation/DelicateCoilApi|null[0]
     constructor <init>() // coil3.annotation/DelicateCoilApi.<init>|<init>(){}[0]
 }
