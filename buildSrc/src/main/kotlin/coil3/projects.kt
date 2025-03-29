@@ -10,6 +10,7 @@ import com.vanniktech.maven.publish.AndroidSingleVariantLibrary
 import com.vanniktech.maven.publish.JavadocJar.Dokka
 import com.vanniktech.maven.publish.KotlinMultiplatform
 import com.vanniktech.maven.publish.MavenPublishBaseExtension
+import com.vanniktech.maven.publish.SonatypeHost
 import org.gradle.api.Project
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 import org.gradle.kotlin.dsl.apply
@@ -60,7 +61,7 @@ fun Project.setupPublishing(
 ) {
     extensions.configure<MavenPublishBaseExtension> {
         pomFromGradleProperties()
-        publishToMavenCentral()
+        publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
         signAllPublications()
         action()
 
