@@ -9,7 +9,7 @@ import coil3.compose.AsyncImagePainter.State
 import coil3.request.ImageRequest
 import coil3.size.Size
 import coil3.test.utils.context
-import io.coil_kt.coil3.test_compose_ui_multiplatform.generated.resources.Res
+import uz.rsteam.coil3.test_compose_ui_multiplatform.generated.resources.Res
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import org.jetbrains.compose.resources.ExperimentalResourceApi
