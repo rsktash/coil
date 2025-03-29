@@ -56,7 +56,7 @@ import sample.common.calculateScaledSize
 import sample.common.extras
 import sample.common.newImageLoader
 import sample.common.next
-import uz.rsteam.coil3.compose.generated.resources.Res
+import uz.rsteam.coil_3.compose.generated.resources.Res
 
 @Composable
 fun App() {

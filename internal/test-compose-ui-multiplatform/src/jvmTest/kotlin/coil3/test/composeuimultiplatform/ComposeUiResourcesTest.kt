@@ -12,7 +12,7 @@ import coil3.test.utils.context
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import org.jetbrains.compose.resources.ExperimentalResourceApi
-import uz.rsteam.coil3.test_compose_ui_multiplatform.generated.resources.Res
+import uz.rsteam.coil_3.test_compose_ui_multiplatform.generated.resources.Res
 
 @OptIn(ExperimentalResourceApi::class, ExperimentalTestApi::class)
 class ComposeUiResourcesTest {
