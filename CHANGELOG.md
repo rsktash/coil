@@ -122,7 +122,7 @@ AsyncImage(
 
 ## [3.0.0-alpha09] - July 23, 2024
 
-- **BREAKING**: Rename the `io.coil-kt.coil3:coil-network-ktor` artifact to `io.coil-kt.coil3:coil-network-ktor2` which depends on Ktor 2.x. Additionally, introduce `io.coil-kt.coil3:coil-network-ktor3` which depends on Ktor 3.x. `wasmJs` support is only available in Ktor 3.x.
+- **BREAKING**: Rename the `uz.rsteam.coil-3:coil-network-ktor` artifact to `uz.rsteam.coil-3:coil-network-ktor2` which depends on Ktor 2.x. Additionally, introduce `uz.rsteam.coil-3:coil-network-ktor3` which depends on Ktor 3.x. `wasmJs` support is only available in Ktor 3.x.
 - **New**: Add `AsyncImagePainter.restart()` to manually restart an image request.
 - Remove `@ExperimentalCoilApi` from `NetworkClient` and related classes.
 - Optimize `ImageRequest` to avoid unnecessary `Extras` and `Map` allocations.
@@ -225,7 +225,7 @@ AsyncImage(
 - **Breaking**: `coil-gif`, `coil-network`, `coil-svg`, and `coil-video`'s packages have been updated so all their classes are part of `coil.gif`, `coil.network`, `coil.svg`, and `coil.video` respectively. This helps avoid class name conflicts with other artifacts.
 - **Breaking**: `ImageDecoderDecoder` has been renamed to `AnimatedImageDecoder`.
 - **New**: `coil-gif`, `coil-network`, `coil-svg`, and `coil-video`'s components are now automatically added to each `ImageLoader`'s `ComponentRegistry`.
-    - To be clear, unlike `3.0.0-alpha01` **you do not need to manually add `NetworkFetcher.Factory()` to your `ComponentRegistry`**. Simply importing `io.coil-kt.coil3:coil-network:[version]` and [a Ktor engine](https://ktor.io/docs/http-client-engines.html#dependencies) is enough to load network images.
+    - To be clear, unlike `3.0.0-alpha01` **you do not need to manually add `NetworkFetcher.Factory()` to your `ComponentRegistry`**. Simply importing `uz.rsteam.coil-3:coil-network:[version]` and [a Ktor engine](https://ktor.io/docs/http-client-engines.html#dependencies) is enough to load network images.
     - It's safe to also add these components to `ComponentRegistry` manually. Any manually added components take precedence over components that are added automatically.
     - If preferred, this behaviour can be disabled using `ImageLoader.Builder.serviceLoaderEnabled(false)`.
 - **New**: Support `coil-svg` on all platforms. It's backed by [AndroidSVG](https://bigbadaboom.github.io/androidsvg/) on Android and [SVGDOM](https://api.skia.org/classSkSVGDOM.html) on non-Android platforms.
@@ -236,7 +236,7 @@ AsyncImage(
 ## [3.0.0-alpha01] - December 30, 2023
 
 - **New**: [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) support. Coil is now a Kotlin Multiplatform library that supports Android, JVM, iOS, macOS, and Javascript.
-- Coil's Maven coordinates were updated to `io.coil-kt.coil3` and its imports were updated to `coil3`. This allows Coil 3 to run side by side with Coil 2 without binary compatibility issues. For example, `io.coil-kt:coil:[version]` is now `io.coil-kt.coil3:coil:[version]`.
+- Coil's Maven coordinates were updated to `uz.rsteam.coil-3` and its imports were updated to `coil3`. This allows Coil 3 to run side by side with Coil 2 without binary compatibility issues. For example, `io.coil-kt:coil:[version]` is now `uz.rsteam.coil-3:coil:[version]`.
 - The `coil-base` and `coil-compose-base` artifacts were renamed to `coil-core` and `coil-compose-core` respectively to align with the naming conventions used by Coroutines, Ktor, and AndroidX.
 - [For the full list of important changes, check out the upgrade guide.](https://coil-kt.github.io/coil/upgrading_to_coil3/)
 

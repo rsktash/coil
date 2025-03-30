@@ -6,7 +6,7 @@ Coil performs best when you create a single `ImageLoader` and share it throughou
 
 ## Singleton
 
-The default `io.coil-kt.coil3:coil` artifact comes with a singleton `ImageLoader`. Coil creates this `ImageLoader` lazily. It can be configured a number of ways:
+The default `uz.rsteam.coil-3:coil` artifact comes with a singleton `ImageLoader`. Coil creates this `ImageLoader` lazily. It can be configured a number of ways:
 
 ```kotlin
 // The setSafe method ensures that it won't overwrite an
@@ -48,7 +48,7 @@ class CustomApplication : SingletonImageLoader.Factory {
 
 ## Dependency injection
 
-If you have a larger app or want to manage your own `ImageLoaders` you can depend on `io.coil-kt.coil3:coil-core` instead of `io.coil-kt.coil3:coil`.
+If you have a larger app or want to manage your own `ImageLoaders` you can depend on `uz.rsteam.coil-3:coil-core` instead of `uz.rsteam.coil-3:coil`.
 
 This route makes scoping the lifecycle of a fake `ImageLoader` much easier and will overall make testing easier.
 
