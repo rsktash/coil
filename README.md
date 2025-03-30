@@ -16,8 +16,8 @@ Translations: [日本語](README-ja.md), [한국어](README-ko.md), [Русск�
 Import the Compose library and a [networking library](https://coil-kt.github.io/coil/network/):
 
 ```kotlin
-implementation("uz.rsteam.coil-3:coil-compose:3.1.0")
-implementation("uz.rsteam.coil-3:coil-network-okhttp:3.1.0")
+implementation("uz.rsteam.coil-3:coil-compose:3.1.1")
+implementation("uz.rsteam.coil-3:coil-network-okhttp:3.1.1")
 ```
 
 To load an image, use the `AsyncImage` composable:

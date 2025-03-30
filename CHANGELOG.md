@@ -4,6 +4,10 @@
 
 - Change `AsyncImagePreviewHandler`'s functional constructor to return `AsyncImagePainter.State.Success` instead of `AsyncImagePainter.State.Loading`.
 
+## [3.1.1] - March 30, 2025
+
+- change compose multiplatform version to 1.8.0-alpha02.
+
 ## [3.1.0] - February 4, 2025
 
 - Improve `AsyncImage` performance.

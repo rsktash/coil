@@ -14,8 +14,8 @@ Coil — это аббревиатура от: **Co**routine **I**mage **L**load
 Импортируйте библиотеку Compose и [сетевую библиотеку](https://coil-kt.github.io/coil/network/):
 
 ```kotlin
-implementation("uz.rsteam.coil-3:coil-compose:3.1.0")
-implementation("uz.rsteam.coil-3:coil-network-okhttp:3.1.0")
+implementation("uz.rsteam.coil-3:coil-compose:3.1.1")
+implementation("uz.rsteam.coil-3:coil-network-okhttp:3.1.1")
 ```
 
 Чтобы загрузите изображение, используйте `AsyncImage` composable:

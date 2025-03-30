@@ -5,7 +5,7 @@
 To add video frame support, import the extension library:
 
 ```kotlin
-implementation("uz.rsteam.coil-3:coil-video:3.1.0")
+implementation("uz.rsteam.coil-3:coil-video:3.1.1")
 ```
 
 And add the decoder to your component registry when constructing your `ImageLoader`:

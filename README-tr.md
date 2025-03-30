@@ -14,8 +14,8 @@ Coil, **Co**routine **I**mage **L**oader'ın kısaltmasıdır.
 Compose kütüphanesini ve bir [ağ kütüphanesini](https://coil-kt.github.io/coil/network/) içe aktarın:
 
 ```kotlin
-implementation("uz.rsteam.coil-3:coil-compose:3.1.0")
-implementation("uz.rsteam.coil-3:coil-network-okhttp:3.1.0")
+implementation("uz.rsteam.coil-3:coil-compose:3.1.1")
+implementation("uz.rsteam.coil-3:coil-network-okhttp:3.1.1")
 ```
 
 Bir görüntüyü yüklemek için, `AsyncImage` bileşenini kullanın:

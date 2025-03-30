@@ -14,8 +14,8 @@ Coil は、**Co**routine **I**mage **L**oader の頭字語です。
 Compose ライブラリと [ネットワーク ライブラリ](https://coil-kt.github.io/coil/network/) をインポートします:
 
 ```kotlin
-implementation("uz.rsteam.coil-3:coil-compose:3.1.0")
-implementation("uz.rsteam.coil-3:coil-network-okhttp:3.1.0")
+implementation("uz.rsteam.coil-3:coil-compose:3.1.1")
+implementation("uz.rsteam.coil-3:coil-network-okhttp:3.1.1")
 ```
 
 画像を読み込むには、`AsyncImage` を使用しますcomposable:
