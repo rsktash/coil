@@ -183,7 +183,7 @@ jobs:
                   ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.SIGNING_KEY_ID }}
                   # If key was created with a password.
                   ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.SIGNING_PASSWORD }}
-              run: ./gradlew publishToMavenCentral
+              run: ./gradlew publishToMavenCentral --debug --stacktrace
 
     deploy-docs:
         name: Deploy docs
