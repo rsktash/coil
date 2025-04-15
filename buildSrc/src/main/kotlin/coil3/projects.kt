@@ -61,7 +61,7 @@ fun Project.setupPublishing(
 ) {
     extensions.configure<MavenPublishBaseExtension> {
         pomFromGradleProperties()
-        publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+        publishToMavenCentral(SonatypeHost.DEFAULT)
         signAllPublications()
         action()
 
